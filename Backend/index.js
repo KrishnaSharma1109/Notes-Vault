@@ -12,7 +12,7 @@ const Note=require('./models/note.model');
 
 
 const express = require("express");
-const cors = require("cors");
+
 
 const app = express();
 app.set('json spaces', 2);
@@ -24,13 +24,19 @@ const {authenticateToken} = require('./utilities');
 
 app.use(express.json());
 
+import cors from "cors";
 
-const corsOptions = {
-  origin: 'https://notes-vault-delta.vercel.app/', 
-  credentials: true,
-};
+const allowedOrigins = [
+  "https://notes-vault-delta.vercel.app", 
+  "http://localhost:5173",               
+];
 
-app.use(cors(corsOptions));
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
 
 
 app.get("/", (req, res) => {
