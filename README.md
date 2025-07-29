@@ -5,10 +5,7 @@
 ---
 
 ## 🌐 Live Demo
-
-- 🔗 Frontend: 
-- 🔗 Backend: 
-
+- https://notes-vault-delta.vercel.app/
 
 
 ---
@@ -117,7 +114,7 @@ MONGODB_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
 ```
 
-###  Your .env in ffrondend
+###  Your .env in frontend
 ```
 ```bash
 BASE_URL=http://localhost:5137
@@ -128,8 +125,8 @@ BASE_URL=http://localhost:5137
 - Krishna Sharma
 
 - 📬 Email: krishnawork118@gmail.com
-- 🔗 GitHub: 
-- 🔗 LinkedIn: 
+- 🔗 GitHub: https://github.com/KrishnaSharma1109
+- 🔗 LinkedIn: www.linkedin.com/in/krishna-sharma-649008219
 
 
 
