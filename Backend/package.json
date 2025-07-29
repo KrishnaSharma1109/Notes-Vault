@@ -7,9 +7,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon index.js"
-  },
+  "start": "node index.js",
+  "build": "echo 'No build step needed'"
+}
+,
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
