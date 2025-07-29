@@ -26,7 +26,7 @@ app.use(express.json());
 
 
 app.use(cors({
-  origin: ['https://notes-vault-jade.vercel.app/'], 
+  origin: ['https://notes-vault-git-main-krishna-sharmas-projects-cfc781c3.vercel.app/'], 
   credentials: true
 }));
 
