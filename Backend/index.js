@@ -26,7 +26,7 @@ app.use(express.json());
 
 
 const corsOptions = {
-  origin: 'https://notes-vault-jade.vercel.app', 
+  origin: 'https://notes-vault-delta.vercel.app/', 
   credentials: true,
 };
 
