@@ -24,11 +24,11 @@ const {authenticateToken} = require('./utilities');
 
 app.use(express.json());
 
-app.use(
-  cors({
-    origin: "*",
-  })
-);
+
+app.use(cors({
+  origin: ['https://notes-vault-jade.vercel.app/'], 
+  credentials: true
+}));
 
 app.get("/", (req, res) => {
   res.json({ data: "hello" });
