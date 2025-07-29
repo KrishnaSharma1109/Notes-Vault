@@ -24,7 +24,7 @@ const {authenticateToken} = require('./utilities');
 
 app.use(express.json());
 
-import cors from "cors";
+
 
 const allowedOrigins = [
   "https://notes-vault-delta.vercel.app", 
